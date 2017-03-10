@@ -1,0 +1,200 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+/*common css*/
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*end common css*/
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	max-width: 100%;
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+}
+
+/*.email {*/
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+.logo {
+	border: 2px solid black;
+	box-sizing: border-box;
+
+}
+.logo img{
+	width: 60%;
+
+	
+}
+
+.menu {
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+
+}
+
+
+.menu ul{
+	list-style: none;
+	margin: 0;
+	
+}
+
+.menu ul li{
+	display: inline-block;
+	margin: 14px;
+	font-family: sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: orange;
+
+}
+.slider {
+	border: 2px solid black;
+	box-sizing: border-box;
+	margin-top: 65px;
+	position: relative;
+}
+
+.slider_background {
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+
+
+}
+.slider_background img{
+	width: 100%;
+	
+
+}
+.slider_background1{
+	position: absolute;
+	bottom: 0;
+	right: 145px;
+}
+
+.slider_background2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.slider_text{
+	position: absolute;
+	left: 40px;
+	top: -7px;
+
+}
+.slider_text{
+	text-transform: uppercase;
+	font-size: 63px;
+	font-weight: bold;
+	color: white;
+	font-family: sans-serif;
+}
+
+/*about_section*/
+.company_background {
+	border: 2px solid yellow;
+	box-sizing: border-box;
+}
+
+.about {
+	border: 2px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 32%;
+}
+
+.about h4{
+	text-transform: uppercase;
+}
+
+.about_action {
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+/*portfolio_section*/
+.portfolio {
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+.portfolio h4{
+	/*border: 2px solid red;*/
+	font-family: sans-serif;
+	text-transform: uppercase;
+		
+}
+
+.portfolio_image{
+	
+	display: inline-block;
+	margin-right: 21px;
+}
+
+/*end portfolio_section*/
+
+.update {
+	border: 2px solid black;
+	box-sizing: border-box;
+}
+
+.update h4{
+	text-transform: uppercase;
+}
+
+.blog_update {
+	/*border: 2px solid red;*/
+	box-sizing: border-box;
+	display: inline-block;
+	width: 70%;
+
+}
+.blog_update p{
+
+}
+
+.blog_icon {
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+	width: 20%;
+	margin-top: -33px;
+}
+
+.social_icon {
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+}
+
+.footer {
+	border: 2px solid black;
+	box-sizing: border-box;
+	background: #E2E2E2;
+	overflow: hidden;
+}
+
+.footer_text {
+	/*border: 2px solid black;*/
+	box-sizing: border-box;
+}
+
+.footer_logo img{
+	/*	border: 2px solid black;*/
+	box-sizing: border-box;
+	width: 100%;
+	height: 88px;
+}
